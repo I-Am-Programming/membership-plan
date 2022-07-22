@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(161, 161, 161);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     gap: 2rem;
 }
@@ -36,6 +36,7 @@ body {
     background-color: white;
     border-radius: 5px;
     transform: transform .5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .card__header {
@@ -130,37 +131,11 @@ body {
 @media screen and (max-width: 768px) {
 
     html {
-        font-size: 5px;
+        font-size: 13px;
     }
 
     .memberships {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
     }
-
-    .card {
-        width: 60rem;
-        height: 70rem;
-        font-size: 3rem;
-    }
-
-    .card__header{
-        font-size: 3rem;
-    }
-
-    .card__price {
-        font-size: 7rem;
-    }
-
-    .card__button {
-        padding: 2rem 3rem;
-        font-size: 2rem;
-        transition: .5s;
-    }
-
-    .card_button:hover {
-        padding: 3rem 4rem;
-    }
-
 }
